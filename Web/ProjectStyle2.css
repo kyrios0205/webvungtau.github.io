@@ -1,0 +1,68 @@
+*{margin: 0px; padding:0px;}
+body{font-family:'Fraunces';}
+header{  padding:15px;
+         height: 60px;
+	 background-color:#3a5cba;
+         }
+ul{
+    width: 100%;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul li{
+        padding:15px;
+        display: inline-block;
+}
+
+ul li a {
+        text-decoration:none;
+        color: black;
+        font-family:sans-serif;
+        font-weight:400px;
+      }
+
+
+      .banner {
+            position:relative;
+	    height:300px;
+            background:url(hinhanh/vung-tau-Banner2.png);
+            background-size:100% 100%;
+         }
+      .banner1 {
+            position:absolute;
+            top: 60px;
+            left: 40px;
+            color:#121111;
+	    letter-spacing:1px;
+      }
+      .banner1 h1 {
+             font-size:50px;
+	     text-transform:uppercase;
+      }
+      .banner1 p {
+             font-size:25px;
+	     text-transform:uppercase;
+	     left:10px;
+      }
+      .container-fluid {
+            background:url(hinhanh/bluebackground.jpg);
+            background-color:#659DBD;
+            background-size:100% 100%;
+      }
+      .clearfix::after {
+         content: "";
+         clear: both;
+         display: table;
+      }
+      .footer{
+         box-sizing: border-box;
+         float:left;
+         width: 33.3%;
+         padding: 50px;
+	 line-height: 25px;
+         background-color:#F8F8F8;
+	 display:flex;
+    	 flex-wrap: wrap;
+
+      }

@@ -1,0 +1,80 @@
+    body {
+	background:url(images/banner.png) no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	font-family: 'Fraunces', sans-serif;
+	font-weight:300;
+}
+h1.bannerlogin {
+	font-size:40px;
+	color:#fff;
+	padding-top:40px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.login {
+
+	width:70%;
+	margin:0 auto 50px;
+	padding:0;
+}
+
+.login .login1 {
+    float: center;
+    padding: 25px 0 0;
+}
+input#firstname,input#email,input#password1,input#password2 {
+	width:300px;
+	height:50px;
+	padding:0 15px;
+	color:#cd201f;
+	font-size:20px;
+	font-weight:150;
+	background-color:solid;
+	border-color:transparent;
+	margin:0 auto 20px;
+	display:block;
+	outline:none;
+}
+
+input.register {
+    width: 335px;
+    margin: 30px auto;
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+    color: #fff;
+    background-color:#3970b0;
+    border-color: transparent;
+	cursor:pointer;
+}
+input.register:hover {
+	color: #fff;
+    background-color:#3970b0;
+}
+p.tkxh {
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+ul.cactkxh {
+    text-align: center;
+}
+ul.cactkxh li {
+	display:inline-block;
+	margin:0;
+}
+ul.cactkxh li a i.fa {
+	width:40px;
+	height:40px;
+	border:1px solid #fff;
+    background-color:#3b5998;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
